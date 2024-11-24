@@ -1,0 +1,16 @@
+2024-11-17 01:54:54,386 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-11-17 01:54:54,556 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-11-17 01:54:54,558 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "compute/region", VALUE: "us-central1"]
+2024-11-17 01:54:54,683 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/655293798093-compute@developer.gserviceaccount.com/?recursive=true
+2024-11-17 01:54:54,687 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2024-11-17 01:54:54,689 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/655293798093-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 155
+2024-11-17 01:54:54,691 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/655293798093-compute@developer.gserviceaccount.com/token
+2024-11-17 01:54:54,693 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/655293798093-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 868
+2024-11-17 01:54:54,906 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-11-17 01:54:55,103 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oil-gas-analysis/regions/us-central1?alt=json HTTP/1.1" 200 None
+2024-11-17 01:54:55,112 WARNING  root            Property validation for compute/region was skipped.
+2024-11-17 01:54:55,113 INFO     ___FILE_ONLY___ Updated property [compute/region].
+
+2024-11-17 01:54:55,114 DEBUG    root            Chosen display Format:default
+2024-11-17 01:54:55,115 INFO     root            Display format: "default"
+2024-11-17 01:54:55,116 DEBUG    root            SDK update checks are disabled.

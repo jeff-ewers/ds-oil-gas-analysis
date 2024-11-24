@@ -1,0 +1,8 @@
+2024-11-21 05:44:30,191 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-11-21 05:44:30,197 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2024-11-21 05:44:30,200 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "dataproc/region"]
+2024-11-21 05:44:30,201 DEBUG    root            Chosen display Format:value(.)
+2024-11-21 05:44:30,201 INFO     root            Display format: "value(.)"
+2024-11-21 05:44:30,202 INFO     ___FILE_ONLY___ us-central1
+
+2024-11-21 05:44:30,202 DEBUG    root            SDK update checks are disabled.

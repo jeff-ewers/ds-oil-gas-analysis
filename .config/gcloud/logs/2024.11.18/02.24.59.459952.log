@@ -1,0 +1,8 @@
+2024-11-18 02:24:59,465 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-11-18 02:24:59,483 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2024-11-18 02:24:59,485 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
+2024-11-18 02:24:59,492 DEBUG    root            Chosen display Format:value(.)
+2024-11-18 02:24:59,493 INFO     root            Display format: "value(.)"
+2024-11-18 02:24:59,493 INFO     ___FILE_ONLY___ oil-gas-analysis
+
+2024-11-18 02:24:59,494 DEBUG    root            SDK update checks are disabled.
